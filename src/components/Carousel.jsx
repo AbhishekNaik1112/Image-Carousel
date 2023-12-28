@@ -21,7 +21,7 @@ class Carousel extends Component {
 
   handleNextClick = () => {
     this.setState((prevState) => ({
-      currentIndex: 
+      currentIndex:
         (prevState.currentIndex - 1 + images.length) % images.length,
     }));
   };
